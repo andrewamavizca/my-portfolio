@@ -61,6 +61,7 @@
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#publications"><i class="bi bi-file-earmark-text navicon"></i> publications</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
         <!-- <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li> -->
     </nav>
@@ -79,7 +80,7 @@
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="about" class="about section dark-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -136,7 +137,7 @@
 
 
     <!-- Skills Section -->
-    <section id="skills" class="skills section light-background">
+    <section id="skills" class="skills section dark-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -220,7 +221,7 @@
 
 
 <!-- Resume Section -->
-<section id="resume" class="resume section">
+<section id="resume" class="resume section dark-background">
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
@@ -290,7 +291,7 @@
 </section><!-- /Resume Section -->
 
 <!-- Portfolio Section -->
-<section id="portfolio" class="portfolio section light-background">
+<section id="portfolio" class="portfolio section dark-background">
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
@@ -315,12 +316,12 @@
         <!-- Turlock Irrigation District Capstone Project -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-embedded">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/turlock-project.jpg" class="img-fluid" alt="Turlock Irrigation District Capstone">
+            <img src="assets/img/portfolio/cap3.JPG" class="img-fluid" alt="Turlock Irrigation District Capstone">
             <div class="portfolio-info">
               <h4>Automated Flood Irrigation Monitoring System</h4>
               <p>Embedded IoT system for real-time flood irrigation alerts via SMS.</p>
-              <a href="assets/img/portfolio/turlock-project.jpg" title="View Image" data-gallery="portfolio-gallery-embedded" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details-turlock.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              <a href="assets/img/portfolio/cap3.JPG" data-gallery="portfolio-gallery-embedded" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <!-- <a href="portfolio-details-turlock.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
             </div>
           </div>
         </div><!-- End Portfolio Item -->
@@ -328,29 +329,40 @@
         <!-- Sim Racing Sequential Shifter -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mechanical">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/Sim_Shifter2.png" class="img-fluid" alt="Sim Racing Sequential Shifter">
+            <img src="assets/img/portfolio/Sim_shifter1.jpg" class="img-fluid" alt="Sim Racing Sequential Shifter">
             <div class="portfolio-info">
               <h4>Custom Sim Racing Sequential Shifter</h4>
               <p>3D-printed gear shifter with Pi Pico controller for racing simulators.</p>
-              <a href="assets/img/portfolio/Sim_Shifter2.png" title="View Image" data-gallery="portfolio-gallery-mechanical" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details-shifter.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              <a href="assets/img/portfolio/Sim_Shifter1.jpg" data-gallery="portfolio-gallery-mechanical" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <!-- <a href="portfolio-details-shifter.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
             </div>
           </div>
         </div><!-- End Portfolio Item -->
-
+      
         <!-- TROPOMI NetCDF Data Processing -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-scientific">
           <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/tropomi.jpg" class="img-fluid" alt="TROPOMI Data Processing">
+            <img src="assets/img/portfolio/tropomi3.jpg" class="img-fluid" alt="TROPOMI Data Processing">
             <div class="portfolio-info">
               <h4>TROPOMI Satellite Data Rasterization</h4>
               <p>Moving window algorithm for methane emissions data processing.</p>
-              <a href="assets/img/portfolio/tropomi.jpg" title="View Image" data-gallery="portfolio-gallery-scientific" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="assets/img/portfolio/tropomi3.jpg" data-gallery="portfolio-gallery-scientific" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               <a href="https://medium.com/@aamavizca/tropomi-netcdf-file-data-to-raster-while-applying-moving-window-algorithm-33d997a067ca" target="_blank" title="Read Article" class="details-link"><i class="bi bi-link-45deg"></i></a>
             </div>
           </div>
         </div><!-- End Portfolio Item -->
-
+        <!-- Land Use Classification -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-scientific">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/dtpi2024.jpg" class="img-fluid" alt="TROPOMI Data Processing">
+            <div class="portfolio-info">
+              <h4>XAI Land Use Classification</h4>
+              <p>Visualizing how our multi-task model performs on landuse classification and vegetation indice predections using multi-spectral sattelite imagery from Sentinel-2.</p>
+              <a href="assets/img/portfolio/dtpi2024.jpg" data-gallery="portfolio-gallery-scientific" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://doi.org/10.1109/DTPI61353.2024.10778902" target="_blank" title="Read Article" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
       </div><!-- End Portfolio Container -->
 
     </div>
@@ -361,7 +373,7 @@
 
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="contact" class="contact section dark-background position-relative">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -431,7 +443,7 @@
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
+  <footer id="footer" class="footer position-relative dark-background">
 
     <div class="container">
       <div class="copyright text-center ">
