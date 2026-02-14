@@ -614,7 +614,7 @@ section,
   }
 
   .hero p {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -776,7 +776,19 @@ section,
   background: var(--background-color);
   border: 2px solid var(--accent-color);
 }
-
+p.my_name {
+  font-family: Calibri, "Segoe UI", Arial, sans-serif;
+  font-variant: small-caps;
+  letter-spacing: 0.05em; /* 5% expansion */
+  font-weight: light; /* matches Word-style body text */
+}
+h1.my_name,
+h2.my_name {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: normal; /* matches Word-style headings */
+}
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
@@ -1270,6 +1282,29 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+/* About section: fix floating tagline + spacing */
+#about .section-title {
+  margin-bottom: 28px;
+}
+
+/* #about .section-title p {
+  max-width: 900px;
+  margin: 0 auto;
+  opacity: 0.9;
+} */
+/* About section: align list label/value nicely */
+#about .content ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+#about .content ul li strong {
+  min-width: 92px; /* keeps labels aligned */
+  display: inline-block;
+}
+
+#about .content ul li span {
+  flex: 1;
 }
